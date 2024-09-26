@@ -27,5 +27,62 @@ Naming Convention: uppercase letters for constants that are aliases for forgetta
 eg const COLOR_RED = "#F00";
 -otherwise, use camelCase
 
-4. Data types: 
-Numbers: Infinity, -Infinty and NaN (not a number)
+4. 8 Data types: 
+a) Numbers: Infinity, -Infinty and NaN (not a number) Numbers larger than 2^53- 1are denoted by 'n' at the
+end of the number, indicating a 'BigInt' type
+b) Strings: text enclosed in quotes
+   -Simple quotes - "double" and 'single'
+   -Extended Functionality quotes - `Backticks`:used to embed variables/expressions into a string using ${}
+   e.g. greeting = (`Hello ${name}!`);
+c) Booleans:** true/false;**, yes/no; 0/1
+d) Null: represents 'empty' values
+e) Undefined: represents an unassigned value
+f) Object: store colections of data/complex entities
+g) typeof: returns the type of operand
+   eg. typeof 10 **'number'**
+
+5. Interactive Functions
+   a) alert: displays a message in a modal window (output)
+   alert('Hello');
+   b) prompt: provides a field in a modal window (input); takes two arguments
+      title - text displayed to user
+      [default] - default value of input field (optional)
+      cancel=null
+   prompt(title, [default]);
+   let value = prompt(title, [default]);
+   c) confirm: displays a question and 'OK' and 'CANCEL' buttons
+      ok=true, cancel=false
+   confirm(question); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+   
